@@ -55,14 +55,14 @@ fs.rename("demo1.txt", 'demo2.txt', (err)=>{
 })
 
 
-// // How to delete file
-// fs.unlink('demo2.txt', (result)=>{
-//     if(result){
-//         console.log("successfully deleted");
-//     }else{
-//         console.log("successfully not deleted")
-//     }
-// })
+// How to delete file
+fs.unlink('demo2.txt', (err)=>{
+    if(err){
+        console.log(err);
+    }else{
+        console.log("successfully not deleted")
+    }
+})
 
 // // How to check the existance
 // fs.exists('demo2.txt', (result)=>{
