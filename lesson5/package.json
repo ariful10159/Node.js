@@ -12,5 +12,8 @@
     "nodemon"
   ],
   "author": "Ariful islam",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "random-fruits-name": "^1.10.1"
+  }
 }
