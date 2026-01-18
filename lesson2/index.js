@@ -60,15 +60,15 @@ fs.unlink('demo2.txt', (err)=>{
     if(err){
         console.log(err);
     }else{
-        console.log("successfully not deleted")
+        console.log("successfully deleted")
     }
 })
 
-// // How to check the existance
-// fs.exists('demo2.txt', (result)=>{
-//     if(result){
-//         console.log("found");
-//     }else{
-//         console.log("not found")
-//     }
-// })
+// How to check the existance
+fs.exists('demo2.txt', (result)=>{
+    if(result){
+        console.log("found");
+    }else{
+        console.log("not found")
+    }
+})
