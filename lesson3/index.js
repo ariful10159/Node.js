@@ -9,7 +9,7 @@ console.log(os.freemem());
 
 
 
-
+//path
 
 // console.log(__dirname);
 // console.log(__filename);
