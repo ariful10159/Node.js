@@ -10,7 +10,7 @@ fs.writeFile("demo1.txt", "My name is Ariful Islam", (err)=>{
     }
 });
 
-fs.appendFile("demo1.txt", " .i am a cse student", (err)=>{
+
     if(err){
         console.log(err);
     }else{
